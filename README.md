@@ -8,5 +8,9 @@ My dotfiles repo. To use, add a `.gitinfo` file to your home directory and inclu
   name = Code Wizard
 ```
 
-Then add symlinks from wherever the included files usually leave to their home
-in the dotfiles repo.
+Then add symlinks from wherever the included files usually live to their home
+in the dotfiles repo. Example:
+
+``` bash
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+```
