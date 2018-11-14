@@ -1,7 +1,5 @@
 # Dotfiles
 
-## My dotfiles repo.
-
 To use, just clone or download this repo into your home folder then add symlinks from wherever the included files usually live to their home
 in the dotfiles repo. Example:
 
