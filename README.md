@@ -5,6 +5,7 @@ To use, just clone or download this repo into your home folder then add symlinks
 **Creating a symlink**
 
 ``` bash
+# ln -s path/to/file path/to/symlink
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ```
 
