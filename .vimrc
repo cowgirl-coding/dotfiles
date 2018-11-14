@@ -19,7 +19,7 @@ set hlsearch
 autocmd FileType python setlocal ts=4 sts=4 sw=4
 
 " automatically break text document lines at line length
-autocmd FileType text,markdown setlocal textwidth=79
+autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn
 
 " enable Omni completion
 filetype plugin on
