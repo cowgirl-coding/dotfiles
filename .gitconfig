@@ -1,0 +1,21 @@
+[include]
+  path = ~/.gitinfo
+[push]
+	default = simple
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+	d = diff
+	dt = difftool
+  ac = commit -a -m
+[diff]
+	tool = vimdiff
+[difftool]
+prompt = false
