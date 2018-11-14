@@ -1,7 +1,8 @@
 # Dotfiles
 
-To use, just clone or download this repo into your home folder then add symlinks from wherever the included files usually live to their home
-in the dotfiles repo. Example:
+To use, just clone or download this repo into your home folder then add symlinks from wherever the included files usually live, e.g. `~/.vimrc` to their location in the dotfiles repo, e.g `~/dotfiles/.vimrc`.
+
+**Creating a symlink**
 
 ``` bash
 ln -s ~/dotfiles/.vimrc ~/.vimrc
