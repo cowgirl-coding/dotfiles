@@ -48,13 +48,9 @@ nnoremap <leader>r :set number relativenumber!<cr>
 map <C-n> :NERDTreeToggle<cr>
 
 " auto-expansion
-nnoremap <leader>[ i[<CR>]<C-c>O
-inoremap (; (<CR>);<C-c>O
-inoremap (, (<CR>),<C-c>O
-inoremap {; {<CR>};<C-c>O
-inoremap {, {<CR>},<C-c>O
-inoremap [; [<CR>];<C-c>O
-inoremap [, [<CR>],<C-c>O
+nnoremap <leader>( i(<CR>)<C-c>O
+nnoremap <leader>[ i [<CR>]<C-c>O
+nnoremap <leader>{ i {<CR>}<C-c>O
 
 " plugins
 call plug#begin('~/.vim/plugged')
