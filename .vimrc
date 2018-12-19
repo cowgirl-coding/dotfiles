@@ -60,7 +60,7 @@ Plug 'digitaltoad/vim-pug'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
-"Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
@@ -74,11 +74,10 @@ Plug 'posva/vim-vue'
 Plug 'prettier/vim-prettier', {
 \ 'do': 'yarn install',
 \ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
-Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
+Plug 'sophacles/vim-processing',
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
@@ -95,13 +94,15 @@ Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
 Plug 'trevordmiller/nova-vim'
 
+"Plug 'ryanoasis/vim-devicons'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
 call plug#end()
 
 " theme stuff
 syntax enable
 
 set guifont=Monospace\ 11
-" FuraCode_NF:h12
 set background=dark
 colorscheme gruvbox
 
