@@ -123,6 +123,7 @@ let NERDTreeShowHidden = 1
 " ctrlp
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_open_new_file = 't'
+let g:ctrlp_cmd= 'CtrlPMRU'
 
 " vim-indent-guides
 let g:indent_guides_start_level = 2
