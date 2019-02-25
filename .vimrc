@@ -120,6 +120,9 @@ let g:ale_linters = {
 " NERDTree
 let NERDTreeShowHidden = 1
 
+" NERDCommenter
+let g:NERDCustomDelimiters = { 'jinja': { 'left': '{# ', 'right': ' #}' } }
+
 " ctrlp
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_open_new_file = 't'
