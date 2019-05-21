@@ -17,6 +17,8 @@ set hlsearch
 
 " set specific tab width for python
 autocmd FileType python setlocal ts=4 sts=4 sw=4
+" set specific tab width for C++
+autocmd FileType cpp setlocal ts=4 sts=4 sw=4
 
 " automatically break text document lines at line length
 autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn
