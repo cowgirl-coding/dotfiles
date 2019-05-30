@@ -15,7 +15,7 @@ set encoding=UTF-8
 " use :noh to remove highlights until next search
 set hlsearch
 
-" set specific tab width for python
+" set specific tab width for languages that use 4-space indentation
 autocmd FileType python,c,cpp,rust setlocal ts=4 sts=4 sw=4
 
 " automatically break text document lines at line length
