@@ -35,6 +35,10 @@ let mapleader=" "
 
 imap jk <ESC>
 
+" Make it easy to open .vimrc and source it
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 " East way to move between windows
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -86,7 +90,6 @@ Plug 'vim-scripts/indentpython.vim'
 Plug 'w0rp/ale'
 
 " Themes
-
 Plug 'altercation/vim-colors-solarized'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'jnurmine/zenburn'
