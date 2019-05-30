@@ -16,7 +16,7 @@ set encoding=UTF-8
 set hlsearch
 
 " set specific tab width for python
-autocmd FileType python setlocal ts=4 sts=4 sw=4
+autocmd FileType python,c,cpp,rust setlocal ts=4 sts=4 sw=4
 
 " automatically break text document lines at line length
 autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn
@@ -60,7 +60,7 @@ Plug 'digitaltoad/vim-pug'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
-"Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
