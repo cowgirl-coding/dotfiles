@@ -118,6 +118,7 @@ hi Normal ctermbg=none
 let g:ale_linters = {
 \  'javascript': ['eslint'],
 \  'python': ['flake8'],
+\  'elixir': ['mix'],
 \}
 
 " NERDTree
