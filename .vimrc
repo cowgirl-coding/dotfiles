@@ -82,6 +82,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'sophacles/vim-processing',
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
