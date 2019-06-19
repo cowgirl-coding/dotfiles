@@ -101,6 +101,12 @@ alias moon="curl -4 http://wttr.in/Moon"
 
 export BAT_THEME="ansi-dark"
 
+# Local config
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
