@@ -1,5 +1,5 @@
 [include]
-  path = ~/.gitinfo
+  path = ~/.gitconfig.local
 [push]
 	default = simple
 [core]
