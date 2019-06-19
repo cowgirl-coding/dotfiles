@@ -94,10 +94,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias g="git"
-alias cat="bat"
-alias weather="curl -4 http://wttr.in/Iowa-City"
-alias moon="curl -4 http://wttr.in/Moon"
 
 export BAT_THEME="ansi-dark"
 
@@ -106,11 +102,3 @@ export BAT_THEME="ansi-dark"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"  # This loads nvm
-export PATH="$HOME/.cabal/bin:/opt/cabal/1.22/bin:/opt/ghc/8.0.2/bin:$PATH"
