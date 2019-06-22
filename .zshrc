@@ -102,3 +102,5 @@ export BAT_THEME="ansi-dark"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

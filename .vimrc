@@ -98,15 +98,15 @@ Plug 'morhetz/gruvbox'
 Plug 'tomasr/molokai'
 Plug 'trevordmiller/nova-vim'
 
-"Plug 'ryanoasis/vim-devicons'
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 call plug#end()
 
 " theme stuff
 syntax enable
 
-set guifont=Monospace\ 11
+set guifont=Ubuntu\ Mono\ 11
 set background=dark
 colorscheme gruvbox
 
