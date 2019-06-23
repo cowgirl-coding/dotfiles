@@ -115,7 +115,7 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 # Fontawesome terminal icon
-set $workspace1 "1: Term "
+set $workspace1 "1: Terminal "
 # Fontawesome Firefox icon
 set $workspace2 "2: Firefox "
 
