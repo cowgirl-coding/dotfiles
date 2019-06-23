@@ -1,49 +1,48 @@
 URxvt.termName:     rxvt-256color
-URxvt.font:         xft:Ubuntu Mono:size=14
-!URxvt.font:         xft:DejaVu Sans Mono:size=14
+URxvt.font:         xft:monospace:size=12
 URxvt.scrollstyle:  plain
-URxvt.depth:        32
-URxvt.transparent:  true
-URxvt.tintColor:   purple
-URxvt.shading:      35
-URxvt.fading:       10
 URxvt.scrollBar:    false
-!urxvt.background:   black
-!URxvt.foreground:   yellowgreen
+URxvt.depth:        32
+!Use URxvt.tintColor
+URxvt.transparent:  true
+!Set transparency amount if transparency is on
+URxvt.shading:      10 
+!Amount to fade inactive terminal window
+URxvt.fading:       10
 
-!! special
-*.foreground:   #a2dbbf
-*.background:   #030d10
-*.cursorColor:  #a2dbbf
+!*.foreground:   #75cc60
+*.foreground:   #b8bb26
+*.background:   #282828
 
+! Gruvbox dark theme with custom color9
 ! black
-*.color0:       #0e1713
-*.color8:       #73c09d
+*.color0:       #282828
+*.color8:       #928374
 
 ! red
-*.color1:       #15211b
-*.color9:       #99d6e4
+*.color1:       #cc241d
+*.color9:       #c31dcc
 
 ! green
-*.color2:       #23332b
-*.color10:      #3c8041
+*.color2:       #98971a
+*.color10:      #b8bb26
 
 ! yellow
-*.color3:       #364c41
-*.color11:      #c2bbef
+*.color3:       #d79921
+*.color11:      #fabd2f
 
 ! blue
-*.color4:       #4e6c5d
-*.color12:      #c5c0e3
+*.color4:       #458588
+*.color12:      #83a598
 
-! magenta
-*.color5:       #6b927e
-*.color13:      #cdc7f1
+! purple
+*.color5:       #b16286
+*.color13:      #d3869b
 
-! cyan
-*.color6:       #8cbea5
-*.color14:      #8fd5b4
+! aqua
+*.color6:       #689d6a
+*.color14:      #8ec07c
 
 ! white
-*.color7:       #b6efd3
-*.color15:      #f6f6f6
+*.color7:       #a89984
+*.color15:      #ebdbb2

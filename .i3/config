@@ -13,7 +13,6 @@ exec_always feh --bg-fill ~/Pictures/connection.jpg
 
 exec --nostartup-id nm-applet
 
-
 # Start a deamon for the compton compositor using the config settings provided.
 # Since urxvt and rofi both offer fake-transparency, I'm not using a compositor
 # exec_always compton -b --config ~/.compton.conf
@@ -125,7 +124,7 @@ bindsym $mod+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
-set $workspace1 "1: tmux"
+set $workspace1 "1: "
 set $workspace2 "2: Firefox "
 
 # switch to workspace
@@ -222,12 +221,23 @@ bindsym Print exec printscreen
 # Use Polybar
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# Colors
+# class                 border  backgr. text    indicator child_border
+client.focused          #000000 #98971a #000000 #689d6a   #98971a
+
+# Mode for new borders, normal|none|pixel
+default_border pixel
+
 # To use i3bar or i3blocks, uncomment this section and comment out the polybar
 # section.
 # Use i3blocks
 bar {
-        position top
-        status_command i3blocks
+  position top
+  status_command i3blocks -c ./.i3blocks.conf
+  colors {
+    # colorclass       border    background text
+    focused_workspace  #4c7899   #98971a    #000000
+  }
 }
 
 set $displayMode "[l]aptop only, [d]isplay-on-left"
