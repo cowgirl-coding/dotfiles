@@ -206,6 +206,13 @@ bindsym --release $mod+Shift+s exec --no-startup-id import /tmp/latest-screensho
 # i.e. don't use the fn key. fn key + PrtScr will turn off your wifi :(
 bindsym Print exec printscreen
 
+set $screenshotMode "[s]creen, [a]rea "
+bindsym $mod+p mode $screenshotMode
+
+mode $screenshotMode {
+  bindsym s exec "$HOME/bin/printscreen" mode default
+}
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
