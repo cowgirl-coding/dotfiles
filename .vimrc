@@ -31,9 +31,10 @@ set omnifunc=syntaxcomplete#Complete
 
 " Mappings
 
+" <Space> is the one true leader key
 let mapleader=" "
 
-imap jk <ESC>
+inoremap jk <ESC>
 
 " Make it easy to open .vimrc and source it
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
@@ -49,7 +50,7 @@ nnoremap <C-l> <C-w>l
 nnoremap <leader>n :set number!<cr>
 nnoremap <leader>r :set number relativenumber!<cr>
 
-map <C-n> :NERDTreeToggle<cr>
+noremap <C-n> :NERDTreeToggle<cr>
 
 " auto-expansion
 nnoremap <leader>( i(<CR>)<C-c>O
@@ -132,7 +133,6 @@ let g:NERDCustomDelimiters = { 'jinja': { 'left': '{# ', 'right': ' #}' } }
 " ctrlp
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_open_new_file = 't'
-let g:ctrlp_cmd= 'CtrlPMRU'
 
 " vim-indent-guides
 let g:indent_guides_start_level = 2
