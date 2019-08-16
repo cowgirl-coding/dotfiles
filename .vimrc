@@ -61,13 +61,13 @@ nnoremap <leader>{ i {<CR>}<C-c>O
 call plug#begin('~/.vim/plugged')
 
 Plug 'ap/vim-css-color'
-Plug 'digitaltoad/vim-pug'
+"Plug 'digitaltoad/vim-pug'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
-Plug 'Glench/Vim-Jinja2-Syntax'
+"Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
+"Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'mitsuhiko/vim-jinja'
 Plug 'mattn/emmet-vim'
@@ -76,7 +76,7 @@ Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'nvie/vim-flake8'
 Plug 'pangloss/vim-javascript'
-Plug 'posva/vim-vue'
+"Plug 'posva/vim-vue'
 Plug 'prettier/vim-prettier', {
 \ 'do': 'yarn install',
 \ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
@@ -93,12 +93,12 @@ Plug 'vim-scripts/indentpython.vim'
 Plug 'w0rp/ale'
 
 " Themes
-Plug 'altercation/vim-colors-solarized'
-Plug 'drewtempelmeyer/palenight.vim'
-Plug 'jnurmine/zenburn'
+"Plug 'altercation/vim-colors-solarized'
+"Plug 'drewtempelmeyer/palenight.vim'
+"Plug 'jnurmine/zenburn'
 Plug 'morhetz/gruvbox'
-Plug 'tomasr/molokai'
-Plug 'trevordmiller/nova-vim'
+"Plug 'tomasr/molokai'
+"Plug 'trevordmiller/nova-vim'
 
 "Plug 'ryanoasis/vim-devicons'
 "Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
@@ -124,15 +124,15 @@ let g:ale_linters = {
 \  'elixir': ['mix'],
 \}
 
-" NERDTree
-let NERDTreeShowHidden = 1
+" ctrlp
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_open_new_file = 't'
 
 " NERDCommenter
 let g:NERDCustomDelimiters = { 'jinja': { 'left': '{# ', 'right': ' #}' } }
 
-" ctrlp
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
-let g:ctrlp_open_new_file = 't'
+" NERDTree
+let NERDTreeShowHidden = 1
 
 " vim-indent-guides
 let g:indent_guides_start_level = 2
