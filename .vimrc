@@ -22,7 +22,7 @@ autocmd FileType python,c,cpp,rust setlocal ts=4 sts=4 sw=4
 autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn
 
 " enable Omni completion
-filetype plugin on
+filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
 
 " enable autocomplete for css files
@@ -68,6 +68,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
+Plug 'mitsuhiko/vim-jinja'
 Plug 'mattn/emmet-vim'
 Plug 'mkitt/tabline.vim'
 Plug 'mxw/vim-jsx'
