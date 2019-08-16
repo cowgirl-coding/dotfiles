@@ -117,7 +117,7 @@ hi Normal ctermbg=none
 
 " Plugin settings
 
-"ale
+" ale
 let g:ale_linters = {
 \  'javascript': ['eslint'],
 \  'python': ['flake8'],
