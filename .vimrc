@@ -60,11 +60,12 @@ nnoremap <leader>{ i {<CR>}<C-c>O
 " plugins
 call plug#begin('~/.vim/plugged')
 
+"Plug 'ambv/black'
 Plug 'ap/vim-css-color'
 "Plug 'digitaltoad/vim-pug'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
-"Plug 'Glench/Vim-Jinja2-Syntax'
+Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 "Plug 'junegunn/limelight.vim'
