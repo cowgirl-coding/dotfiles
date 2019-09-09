@@ -11,6 +11,10 @@ set showcmd
 set cursorline
 set encoding=UTF-8
 
+let loaded_spellfile_plugin = 1
+
+hi SpellBad cterm=underline
+
 " highlight search results
 " use :noh to remove highlights until next search
 set hlsearch
@@ -19,7 +23,7 @@ set hlsearch
 autocmd FileType python,c,cpp,rust setlocal ts=4 sts=4 sw=4
 
 " automatically break text document lines at line length
-autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn
+autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn spell spelllang=en_us
 
 " enable Omni completion
 filetype plugin indent on
