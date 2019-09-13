@@ -67,10 +67,11 @@ call plug#begin('~/.vim/plugged')
 "Plug 'ambv/black'
 Plug 'ap/vim-css-color'
 "Plug 'digitaltoad/vim-pug'
+Plug 'reasonml-editor/vim-reason-plus'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
-Plug 'jiangmiao/auto-pairs'
+"Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 "Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
@@ -82,7 +83,7 @@ Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'nvie/vim-flake8'
 Plug 'pangloss/vim-javascript'
-"Plug 'posva/vim-vue'
+Plug 'posva/vim-vue'
 Plug 'prettier/vim-prettier', {
 \ 'do': 'yarn install',
 \ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
