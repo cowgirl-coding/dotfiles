@@ -64,10 +64,9 @@ nnoremap <leader>{ i {<CR>}<C-c>O
 " plugins
 call plug#begin('~/.vim/plugged')
 
+Plug 'alx741/vim-hindent'
 "Plug 'ambv/black'
 Plug 'ap/vim-css-color'
-"Plug 'digitaltoad/vim-pug'
-Plug 'reasonml-editor/vim-reason-plus'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
@@ -81,12 +80,15 @@ Plug 'mattn/emmet-vim'
 Plug 'mkitt/tabline.vim'
 Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'neovimhaskell/haskell-vim'
 Plug 'nvie/vim-flake8'
 Plug 'pangloss/vim-javascript'
 Plug 'posva/vim-vue'
 Plug 'prettier/vim-prettier', {
 \ 'do': 'yarn install',
 \ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
+Plug 'reasonml-editor/vim-reason-plus'
+Plug 'rstacruz/vim-closer'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'sophacles/vim-processing',
