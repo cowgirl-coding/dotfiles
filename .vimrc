@@ -11,6 +11,9 @@ set showcmd
 set cursorline
 set encoding=UTF-8
 
+" Show a vertical bar where code should break
+set colorcolumn=81
+
 let loaded_spellfile_plugin = 1
 
 hi SpellBad cterm=underline
@@ -70,7 +73,6 @@ Plug 'ap/vim-css-color'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
 Plug 'Glench/Vim-Jinja2-Syntax'
-"Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 "Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
@@ -102,15 +104,7 @@ Plug 'vim-scripts/indentpython.vim'
 Plug 'w0rp/ale'
 
 " Themes
-"Plug 'altercation/vim-colors-solarized'
-"Plug 'drewtempelmeyer/palenight.vim'
-"Plug 'jnurmine/zenburn'
 Plug 'morhetz/gruvbox'
-"Plug 'tomasr/molokai'
-"Plug 'trevordmiller/nova-vim'
-
-"Plug 'ryanoasis/vim-devicons'
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 call plug#end()
 
