@@ -1,3 +1,2 @@
 :set prompt "\ESC[1;35m\x03BB> \ESC[m"
 :def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\""
-:def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\""
