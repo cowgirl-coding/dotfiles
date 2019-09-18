@@ -18,6 +18,8 @@ let loaded_spellfile_plugin = 1
 
 hi SpellBad cterm=underline
 
+filetype plugin on
+
 " highlight search results
 " use :noh to remove highlights until next search
 set hlsearch
@@ -95,6 +97,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'sophacles/vim-processing',
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'tidalcycles/vim-tidal'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
