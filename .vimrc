@@ -1,28 +1,23 @@
+" Show a vertical bar where code should break
+set colorcolumn=81
+set cursorline
+set encoding=UTF-8
+set expandtab
+set guioptions=
+set hlsearch
+set mouse=a
 set nocompatible
 set nobackup
 set noswapfile
 set number relativenumber
-set tabstop=2
 set shiftwidth=2
-set expandtab
-set guioptions=
-set mouse=a
 set showcmd
-set cursorline
-set encoding=UTF-8
-
-" Show a vertical bar where code should break
-set colorcolumn=81
+set tabstop=2
 
 let loaded_spellfile_plugin = 1
-
 hi SpellBad cterm=underline
 
 filetype plugin on
-
-" highlight search results
-" use :noh to remove highlights until next search
-set hlsearch
 
 " set specific tab width for languages that use 4-space indentation
 autocmd FileType python,c,cpp,rust setlocal ts=4 sts=4 sw=4
@@ -33,10 +28,6 @@ autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn spell 
 " enable Omni completion
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
-
-" enable autocomplete for css files
-" autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-" autocmd FileType scss set omnifunc=csscomplete#CompleteCSS
 
 " Mappings
 
