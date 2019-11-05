@@ -9,7 +9,7 @@
 # layout, use the i3-config-wizard
 
 # Set background image when i3 starts with feh
-exec_always feh --bg-fill ~/Pictures/connection.jpg
+exec_always feh --bg-fill ~/Pictures/Wallpapers/minimal_forest.png
 
 exec --nostartup-id nm-applet
 

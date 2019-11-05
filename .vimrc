@@ -20,7 +20,7 @@ hi SpellBad cterm=underline
 filetype plugin on
 
 " set specific tab width for languages that use 4-space indentation
-autocmd FileType python,c,cpp,rust setlocal ts=4 sts=4 sw=4
+autocmd FileType python,haskell,c,cpp,rust setlocal ts=4 sts=4 sw=4
 
 " automatically break text document lines at line length
 autocmd FileType text,markdown setlocal textwidth=79 formatoptions=tacqwn spell spelllang=en_us
@@ -60,7 +60,7 @@ nnoremap <leader>{ i {<CR>}<C-c>O
 " plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'alx741/vim-hindent'
+"Plug 'alx741/vim-hindent'
 "Plug 'ambv/black'
 Plug 'ap/vim-css-color'
 Plug 'elixir-editors/vim-elixir'

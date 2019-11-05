@@ -6,7 +6,7 @@ URxvt.depth:        32
 !Use URxvt.tintColor
 URxvt.transparent:  true
 !Set transparency amount if transparency is on
-URxvt.shading:      10 
+URxvt.shading:      25 
 !Amount to fade inactive terminal window
 URxvt.fading:       10
 
