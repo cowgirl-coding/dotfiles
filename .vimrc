@@ -84,6 +84,7 @@ Plug 'prettier/vim-prettier', {
 \ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
 Plug 'reasonml-editor/vim-reason-plus'
 Plug 'rstacruz/vim-closer'
+Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'sophacles/vim-processing',
