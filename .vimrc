@@ -60,6 +60,7 @@ nnoremap <leader>{ i {<CR>}<C-c>O
 " plugins
 call plug#begin('~/.vim/plugged')
 
+Plug 'ajh17/VimCompletesMe'
 "Plug 'alx741/vim-hindent'
 "Plug 'ambv/black'
 Plug 'ap/vim-css-color'
@@ -92,6 +93,7 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'tidalcycles/vim-tidal'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
