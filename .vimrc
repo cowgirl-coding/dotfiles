@@ -65,7 +65,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'ap/vim-css-color'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
-Plug 'Glench/Vim-Jinja2-Syntax'
+"Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'junegunn/goyo.vim'
 "Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
