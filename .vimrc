@@ -66,7 +66,7 @@ Plug 'ajh17/VimCompletesMe'
 Plug 'ap/vim-css-color'
 Plug 'elixir-editors/vim-elixir'
 Plug 'elmcast/elm-vim'
-Plug 'Glench/Vim-Jinja2-Syntax'
+"Plug 'Glench/Vim-Jinja2-Syntax'
 Plug 'junegunn/goyo.vim'
 "Plug 'junegunn/limelight.vim'
 Plug 'kien/ctrlp.vim'
@@ -85,6 +85,7 @@ Plug 'prettier/vim-prettier', {
 \ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
 Plug 'reasonml-editor/vim-reason-plus'
 Plug 'rstacruz/vim-closer'
+Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'sophacles/vim-processing',
