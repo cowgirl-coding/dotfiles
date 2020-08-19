@@ -9,7 +9,10 @@
 # layout, use the i3-config-wizard
 
 # Set background image when i3 starts with feh
-exec_always feh --bg-fill ~/Pictures/Wallpapers/minimal_forest.png
+exec_always feh --bg-fill ~/Pictures/Wallpapers/among_trees.png
+
+# Set lighting with redshift
+# exec_always redshift
 
 exec --nostartup-id nm-applet
 
@@ -218,7 +221,7 @@ mode $screenshotMode {
 
 # To use polybar, uncomment this line and comment out bar { ... }
 # Use Polybar
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Colors
 # class                 border  backgr. text    indicator child_border
@@ -230,19 +233,22 @@ default_border pixel
 # To use i3bar or i3blocks, uncomment this section and comment out the polybar
 # section.
 # Use i3blocks
-bar {
-  position top
-  status_command i3blocks -c ./.i3blocks.conf
-  colors {
-    # colorclass       border    background text
-    focused_workspace  #282828   #98971a    #000000
-  }
-}
+#bar {
+  #position top
+  #status_command i3blocks -c ./.i3blocks.conf
+  #colors {
+    ## colorclass       border    background text
+    #focused_workspace  #282828   #98971a    #000000
+  #}
+#}
 
-set $displayMode "[l]aptop only, [d]isplay-on-left"
+# Monitor configuration mode. Use arandr, a GUI tool for creating xrandr
+# scripts, to create new monitor configurations.
+set $displayMode "[l]aptop only, [e]xternal display only, [d]isplay on left"
 bindsym $mod+x mode $displayMode
 
 mode $displayMode {
   bindsym l exec "~/.screenlayout/laptop-only.sh" mode default
+  bindsym e exec "~/.screenlayout/external-monitor-only.sh" mode default
   bindsym d exec "~/.screenlayout/laptop-and-display.sh" mode default
 }

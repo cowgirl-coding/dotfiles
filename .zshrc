@@ -104,3 +104,7 @@ export BAT_THEME="ansi-dark"
 [[ -f ~/.aliases ]] && source ~/.aliases
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# Edit stuff with vim!
+export VISUAL="vim"
+export EDITOR="vim"
