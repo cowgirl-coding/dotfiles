@@ -9,7 +9,6 @@ set mouse=a
 set nocompatible
 set nobackup
 set noswapfile
-"set number relativenumber
 set number
 set shiftwidth=2
 set showcmd
@@ -49,10 +48,6 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-" toggle line numbers, toggle relative or absolute
-" nnoremap <leader>n :set number!<cr>
-" nnoremap <leader>r :set number relativenumber!<cr>
-
 " Mappings for plugins
 noremap <C-n> :NERDTreeToggle<cr>
 noremap <leader>ad :ALEDetail<cr>
@@ -69,7 +64,6 @@ Plug 'kien/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'lepture/vim-jinja'
 Plug 'mattn/emmet-vim'
-"Plug 'mkitt/tabline.vim'
 Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'neovimhaskell/haskell-vim'
