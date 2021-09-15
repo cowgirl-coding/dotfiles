@@ -5,6 +5,9 @@ set encoding=UTF-8
 set expandtab
 set guioptions=
 set hlsearch
+" Show trailing whitespace as $ character
+set list
+set listchars=trail:$
 set mouse=a
 set nocompatible
 set nobackup
@@ -48,6 +51,13 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+" Insert a date
+nnoremap <leader>r :put =strftime('%c')<cr>
+
+" Simple Copy/Paste
+nnoremap <leader>y "+y
+nnoremap <leader>p "+gp
+
 " Mappings for plugins
 noremap <C-n> :NERDTreeToggle<cr>
 noremap <leader>ad :ALEDetail<cr>
@@ -76,8 +86,7 @@ Plug 'rstacruz/vim-closer'
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-Plug 'tidalcycles/vim-tidal'
+" Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
@@ -125,7 +134,7 @@ let g:NERDCustomDelimiters = { 'jinja': { 'left': '{# ', 'right': ' #}' } }
 let NERDTreeShowHidden = 1
 
 " vim-indent-guides
-let g:indent_guides_start_level = 2
+let g:indent_guides_start_level = 1
 let g:indent_guides_enable_on_vim_startup = 1
 
 " vim-prettier

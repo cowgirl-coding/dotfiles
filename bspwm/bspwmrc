@@ -1,19 +1,25 @@
 #! /bin/sh
 
+# What's this do?
 sxhkd &
 
-# Use compton if you want a transparent bar, etc.
+# Turn on the blue light filter
+# killall -q redshift
+
+# Wait until redshift is really dead to start a new one
+# while pgrep -u $UID -x redshift > /dev/null; do sleep 1; done
+
+# redshift &
+
+# Use compton if you want a transparent bar etc., or turn off for efficiency
 compton &
 
-killall -q redshift
-
-while pgrep -u $UID -x redshift; do sleep 1; done
-
-redshift &
+# Swap control and caps lock
+/usr/bin/setxkbmap -option "ctrl:swapcaps"
 
 # Set background image
-# feh --bg-center /home/kwaddle/Pictures/Wallpapers/among_trees.png
-feh --bg-center /home/kwaddle/Pictures/Wallpapers/among_trees_1.jpg
+# Use super + alt + r to reload your config
+feh --bg-fill /home/kwaddle/Pictures/Wallpapers/spring_street.jpeg
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &

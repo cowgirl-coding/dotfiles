@@ -108,3 +108,6 @@ export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 # Edit stuff with vim!
 export VISUAL="vim"
 export EDITOR="vim"
+[ -f "/home/kwaddle/.ghcup/env" ] && source "/home/kwaddle/.ghcup/env" # ghcup-env
+
+eval "$(direnv hook zsh)"
