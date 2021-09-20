@@ -1,9 +1,21 @@
+# Bat is superior
 alias cat="bat"
+
+# Time and weather
 alias weather="curl -4 http://wttr.in/Iowa-City"
 alias moon="curl -4 http://wttr.in/Moon"
+alias cal="cal -3"
+
+alias du="du -h"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
+
+alias pl-hs="cd ~/Code/Haskell/playground"
+alias pl-py="cd ~/Code/Python/playground"
+alias poly-conf="cd ~/.config/polybar"
+
+alias papers="sxiv ~/Pictures/Wallpapers"
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local

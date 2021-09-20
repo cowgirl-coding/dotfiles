@@ -1,0 +1,15 @@
+rofi.fullscreen: false
+
+rofi.fake-transparency: true
+
+# Themes
+# supports color in rgb, argb, or X11 name formats
+
+# State            bg         fg        bgalt      hlbg       hlfg
+rofi.color-normal: #a89986,   #282828,  #ebdbb2,   #b8bb26,   #282828
+# This one looks pretty good with orange bar
+#rofi.color-normal: #333333,    papayawhip, #333333,  orange,    black
+
+#                  background,  border,    separator
+rofi.color-window: #a89986,     #AA444444, #b8bb26
+# rofi.theme: /usr/share/rofi/themes/gruvbox-light.rasi
