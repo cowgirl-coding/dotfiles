@@ -65,7 +65,6 @@ noremap <leader>ad :ALEDetail<cr>
 " plugins
 call plug#begin('~/.vim/plugged')
 
-" Plug 'ajh17/VimCompletesMe'
 Plug 'ap/vim-css-color'
 Plug 'elixir-editors/vim-elixir'
 Plug 'itchyny/lightline.vim'
@@ -94,7 +93,6 @@ Plug 'vim-scripts/indentpython.vim'
 Plug 'w0rp/ale'
 " Themes
 Plug 'morhetz/gruvbox'
-Plug 'franbach/miramare'
 
 call plug#end()
 
