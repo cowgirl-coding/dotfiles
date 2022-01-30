@@ -11,6 +11,10 @@ alias du="du -h"
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+alias jour="vim ~/Dropbox/Journal"
+alias py="python3"
+alias jl="julia"
+
 alias pl-hs="cd ~/Code/Haskell/playground"
 alias pl-py="cd ~/Code/Python/playground"
 alias poly-conf="cd ~/.config/polybar"

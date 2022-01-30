@@ -65,7 +65,7 @@ noremap <leader>ad :ALEDetail<cr>
 " plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'ajh17/VimCompletesMe'
+" Plug 'ajh17/VimCompletesMe'
 Plug 'ap/vim-css-color'
 Plug 'elixir-editors/vim-elixir'
 Plug 'itchyny/lightline.vim'
@@ -86,7 +86,6 @@ Plug 'rstacruz/vim-closer'
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
-" Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'

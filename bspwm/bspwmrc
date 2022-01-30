@@ -19,7 +19,7 @@ compton &
 
 # Set background image
 # Use super + alt + r to reload your config
-feh --bg-fill /home/kwaddle/Pictures/Wallpapers/spring_street.jpeg
+feh --bg-fill /home/kwaddle/Pictures/Wallpapers/lonely_place_by_ryky.png
 
 # Launch polybar
 $HOME/.config/polybar/launch.sh &
