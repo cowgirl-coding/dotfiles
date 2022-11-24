@@ -36,7 +36,7 @@ set omnifunc=syntaxcomplete#Complete
 
 " Mappings
 
-" <Space> is the one true leader key
+" <Space> is the eader key
 let mapleader=" "
 
 inoremap jk <ESC>
@@ -66,21 +66,14 @@ noremap <leader>ad :ALEDetail<cr>
 call plug#begin('~/.vim/plugged')
 
 Plug 'ap/vim-css-color'
-Plug 'elixir-editors/vim-elixir'
 Plug 'itchyny/lightline.vim'
-Plug 'JuliaEditorSupport/julia-vim'
 Plug 'kien/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'lepture/vim-jinja'
-Plug 'mattn/emmet-vim'
 Plug 'mxw/vim-jsx'
 Plug 'nathanaelkane/vim-indent-guides'
-Plug 'neovimhaskell/haskell-vim'
 Plug 'nvie/vim-flake8'
 Plug 'pangloss/vim-javascript'
-Plug 'prettier/vim-prettier', {
-\ 'do': 'yarn install',
-\ 'for': ['javascript', 'css', 'scss', 'json', 'markdown', 'vue'] }
 Plug 'rstacruz/vim-closer'
 Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdcommenter'
@@ -112,7 +105,6 @@ hi Normal ctermbg=none
 let g:ale_linters = {
 \  'javascript': ['eslint'],
 \  'python': ['flake8'],
-\  'elixir': ['mix'],
 \}
 
 " ctrlp
@@ -133,6 +125,3 @@ let NERDTreeShowHidden = 1
 " vim-indent-guides
 let g:indent_guides_start_level = 1
 let g:indent_guides_enable_on_vim_startup = 1
-
-" vim-prettier
-let g:prettier#config#bracket_spacing = 'true'
