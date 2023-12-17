@@ -1,9 +1,9 @@
 [include]
   path = ~/.gitconfig.local
 [push]
-	default = simple
+  default = simple
 [core]
-	editor = vim
+  editor = vim
 [alias]
   co = checkout
   ci = commit
@@ -12,10 +12,10 @@
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
-	d = diff
-	dt = difftool
+  d = diff
+  dt = difftool
   ac = commit -a -m
 [diff]
-	tool = vimdiff
+  tool = vimdiff
 [difftool]
-prompt = false
+  prompt = false

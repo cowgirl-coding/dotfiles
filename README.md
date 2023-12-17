@@ -8,7 +8,7 @@ their location in the dotfiles repo, e.g `~/dotfiles/.vimrc`.
 
 ``` bash
 # ln -s path/to/file path/to/symlink
-ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s $HOME/dotfiles/.vimrc ~/.vimrc
 ```
 
 If using the included `.gitconfig`, add a `.gitinfo` file to your home
